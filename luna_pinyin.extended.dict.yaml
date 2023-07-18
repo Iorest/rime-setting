@@ -1,0 +1,13 @@
+# Rime dictionary
+# encoding: utf-8
+# Luna Pinyin Extended Dictionary(Basic)  - 明月拼音扩充词库（基本）
+
+---
+name: luna_pinyin.extended      # 词库名
+version: "2021.02.07"
+sort: by_weight                 # by_weight（按词频高低排序）或 original（保持原码表中的顺序）
+use_preset_vocabulary: true     # true 或 false，选择是否导入预设词汇表【八股文】
+
+import_tables:
+  - luna_pinyin
+  - luna_pinyin.sogou
