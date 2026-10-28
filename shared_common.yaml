@@ -24,6 +24,7 @@ common_engine_filters:
 
 common_engine_translators:
   - punct_translator
+  - reverse_lookup_translator
   - script_translator
   - table_translator@custom_phrase
   - table_translator@english
