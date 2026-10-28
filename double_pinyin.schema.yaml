@@ -18,7 +18,7 @@ switches:
     states: [ 中文, 西文 ]
   - name: full_shape
     states: [ 半角, 全角 ]
-  - name: simplification
+  - name: zh_simp
     states: [ 漢字, 汉字 ]
   - name: ascii_punct
     states: [ 。，, ．， ]
@@ -130,6 +130,9 @@ reverse_lookup:
     - xlit/hspnz/一丨丿丶乙/
   comment_format:
     - xform/([nl])v/$1ü/
+
+simplifier:
+  option_name: zh_simp
 
 punctuator:
   import_preset: default

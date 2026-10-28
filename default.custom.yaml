@@ -37,7 +37,7 @@ patch:
     #- { when: always, accept: Control+Shift+1, select: .next }             # 切换输入方案
     #- { when: always, accept: Control+Shift+2, toggle: ascii_mode }        # 中/英文切换
     #- { when: always, accept: Control+Shift+3, toggle: full_shape }        # 全角/半角切换
-    - { when: always, accept: Control+Shift+4, toggle: simplification } # 繁简体切换
+    - { when: always, accept: Control+Shift+4, toggle: zh_simp } # 繁简体切换
     # 删词功能：选中错词按 Ctrl+Delete 即可将其从记忆中删除
     - { when: has_menu, accept: Control+Delete, send: Shift+Delete }
     #- { when: always, accept: Control+Shift+5, toggle: extended_charset }  # 通用/增广切换（显示生僻字）
