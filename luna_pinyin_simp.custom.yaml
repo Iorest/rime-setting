@@ -36,8 +36,9 @@ patch:
     - abbrev/^([zcs]h).+$/$1/
 
   # 依赖项
-  "schema/dependencies/@next": stroke
-  "schema/dependencies/@next": easy_en
+  schema/dependencies:
+    - stroke
+    - easy_en
   "engine/segmentors/@before 0": affix_segmentor@reverse_lookup
 
   # 语言模型

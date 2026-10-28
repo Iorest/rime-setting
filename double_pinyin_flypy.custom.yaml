@@ -26,8 +26,9 @@ patch:
   "translator/preedit_format": []
 
   # 依赖项与反查组件
-  "schema/dependencies/@next": stroke
-  "schema/dependencies/@next": easy_en
+  schema/dependencies:
+    - stroke
+    - easy_en
   "engine/segmentors/@before 0": affix_segmentor@reverse_lookup
 
   # 语言模型
